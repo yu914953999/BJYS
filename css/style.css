@@ -1,0 +1,96 @@
+body { padding: 0; margin: 0;}
+a { text-decoration: none; color: #333}
+a:hover {
+    color: #ddcd85;
+}
+.logo { height: auto;}
+.navbar { margin-bottom: 0;}
+.jysnav { padding-top: 20px;}
+.jysnav-c { margin-left: 30px;}
+.swiper-container {
+    height: 598px;
+}
+.btn-jys {
+    color: #ddcd85;
+    background-color: #fff;
+    border-color: #ddcd85;
+}
+.btn-jys:hover {
+    color: #fff;
+    background-color: #ddcd85;
+    border-color: #ddcd85;
+}
+.txt-c-f { color: #fff !important;}
+.txt-c-e { color: #eee !important;}
+.txt-c-d { color: #ddd !important;}
+.txt-c-ddcd85 { color: #ddcd85 !important;}
+.txt-c-999 { color: #999 !important;}
+.pd-v-50 { padding-top: 50px; padding-bottom: 50px;}
+.pd-t-50 { padding-top: 50px;}
+.mg-t-20 { margin-top: 20px;}
+.gywm-js { padding: 15px;}
+.gywm-ic { margin-bottom: 20px;}
+.gywm-js, .gywm-ic img { transition:all 0.3s ease;}
+.gywm-js:hover { box-shadow: 0 0 5px #ddd;transition:all 0.3s ease; }
+.gywm-js:hover .gywm-ic img { transition:all 0.3s ease; transform:scale(1.2,1.2); }
+.bt { margin-bottom: 40px;}
+.bt-en {
+    color: #ddcd85;
+}
+
+.linian {
+    background: url("../images/linian.jpg") no-repeat;
+    background-size: cover;
+    height:580px;
+    display: flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+}
+.linian-more { width:40px; height: 40px; display: inline-block; border-radius: 50%; border:1px solid #ddcd85; color: #ddcd85; font-size: 24px; }
+.linian-more:hover { color: #ddcd85;  }
+
+.i-prd { position: relative; height: 172px; overflow: hidden; }
+.i-prd .prd-img { width: 100%; }
+.i-prd-text { position: absolute; top: 100%; background: rgba(0,0,0,0.7); width: 100%; height: 100%; text-align: center; padding: 15px; transition: all 0.5s ease;}
+.i-prd:hover .i-prd-text  { top: 0; transition: all 0.5s ease; }
+
+.prd-index .nav-tabs {
+    border-bottom: none;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.prd-index .nav-tabs > li {
+    float: none;
+    margin-bottom: -1px;
+    display: inline-block;
+}
+.prd-index .nav-tabs > li.active {
+    border: none;
+    border-bottom: 2px solid #ddcd85;
+}
+.prd-index .nav-tabs > li.active > a, .prd-index .nav-tabs > li.active > a:hover, .prd-index .nav-tabs > li.active > a:focus {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: none;
+}
+
+.prd-index .nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: none;
+}
+.prd-index .nav-tabs > li > a:hover {
+    background: none;
+    color: #ddcd85;
+}
+
+.ziyuan { background: url("../images/ziyuan_bg.jpg") no-repeat; height: 470px; background-size: cover;}
+.zy-down {}
+.zy-down a { padding-left: 20px; padding-right: 20px; margin-bottom: 20px; margin-right: 20px;}
+
+.footer { background: #313131; padding-top: 30px; color: #999;}
+.banquan { background: #1b1b1b; padding: 10px 0;}
+.ft-nav a { color: #999;}
+.phone { color: #997e45;font-size: 40px; font-weight: bold; border-bottom:1px solid #ddcd85; padding-bottom: 20px; text-align: center;}
